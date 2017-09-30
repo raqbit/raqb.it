@@ -1,0 +1,109 @@
+body {
+    background: #fafafa;
+}
+
+header {
+    background-color: #46834b;
+    height: 50vh;
+
+    display: flex;
+}
+
+.sociallinks {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+#cactus-icon {
+    height: 150px;
+}
+
+@media screen and (max-height: 600px) {
+    #cactus-icon {
+        height: 100px;
+    }
+
+    .title h1 {
+        font-size: 40px;
+    }
+}
+
+
+main {
+    margin-top: 40px;
+
+    margin-bottom: 6rem;
+}
+
+.cards {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.cards section:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.cards section {
+    width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .cards section {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cards section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cards section {
+        width: 90%;
+    }
+}
+
+#project-text p:last-child {
+    margin-bottom: 0;
+}
+
+.mdl-list {
+    margin-top: 0;
+}
+
+li.mdl-list__item  a {
+    text-decoration: none;
+    font-weight:normal;
+    color: rgba(0,0,0,.87);
+}
+
+#mdl-override .proj-list-icon{
+    height: 40px;
+    width: 40px;
+
+    float: left;
+    margin-right:16px;
+
+    border-radius: 50%;
+
+    border: 1px solid #757575;
+}
+
+footer {
+    min-width: 100%;
+    padding-bottom: 5px;
+
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/raqbit
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://raqbit.github.io
+  * I am raqbit (https://keybase.io/raqbit) on keybase.
+  * I have a public key with fingerprint 9E88 56C5 BEA3 785A 550C  2246 2B10 7D97 E377 AD8E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010eccad63eabcdf9784ad590b8188e5883d86d0ba89c4e1bbccfeac1e1178c8f00a",
+            "fingerprint": "9e8856c5bea3785a550c22462b107d97e377ad8e",
+            "host": "keybase.io",
+            "key_id": "2b107d97e377ad8e",
+            "kid": "01010eccad63eabcdf9784ad590b8188e5883d86d0ba89c4e1bbccfeac1e1178c8f00a",
+            "uid": "7cb452cc71705b11dcceadf09efd0219",
+            "username": "raqbit"
+        },
+        "service": {
+            "hostname": "raqbit.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481303737,
+    "expire_in": 157680000,
+    "prev": "0c45254495ae11202f4d6fb4420f2f21292ae65ab38bc3eb151768b624822b33",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.60
+Comment: https://keybase.io/crypto
+
+yMIpAnicrVJbSBVBGN6T2kUwQ6kkomJJDDPd2cvZ2UNgUBYFYlRmNz3OzM6es6l7
+jnv2HDtZKSVFVEYFYULlQxdTulD04EN5LCMiKKEoEIoI0x4koUzC7DJr9RD02MzD
+MP//fd9838/0piVxqZ60uVzd3fMbPZ7HPWei3JZ1g131PA7pcd5Xz1fRyYNW6zTi
++KtMnffxAmCbEoJ0r0QRJrqhqVBGuqIJGAIIqQKhpEOvLmAENSJTgDEhBkUEUABU
+SKAhCIjP4w3TClA7bJuWw2Q1CqHiJQqmSFKhghRFIKIoe0UMBFXXVCqpKtIhZcRg
+KOIymDmMIjTfDLEau/gn7f0D/599RyflVIJlRSREBaqgYAB0QijSDUGjhi6IQHOB
+EWpbqIYytI1qsenwe/N4VouZhLpjdXP81c8PmE4win8lCtshJ0RC1awbdJxwxOey
+nXjYhddR7P8t5MempbNJMkaM2hEzZPE+wJDEMV1lIEMgCZIqqXk83RU2beo3XYSi
+eqHAlvsOjbnjISyOIsuaglhcURANWfcaWJZFwRANEYiaiKhXQViCmEgUAwUwCewV
+ZSiKWJJ4N1qtFeJ9CrOJAkwyYgYs5ERtyu+9l9iRzHlSuakpU9wfxqXOmPXn3xX3
+TfsRDBYk+zddvrnu3fCiyK2rWQdqKy5MtB++UdKU22GP9O8BK5qSDtbHG7d+Kj16
++Tj4gM91f+OKgu1Jvf6tZV87H30uTGmTR7NvlxzLcz6OCeV9ZUkjGTM72jdnNm9K
+f1I40bCtpm+oVUrk3pzin9owr2hBY8YbeySzOTM7Grha0vl6TcVExZzSKwMvOpY+
+KDy93Cp+3zKUfS15Gd7dM3Bxdtd97uz80aas0Zw0/GpDt9CfXXlifFfRKpw1uH5/
++dfEeDg+vC93eIyLxc4VLL2eWNl612NbzavfjiqH6MKOp9Mbt598WHmrbYmxdqBl
+eW5G+pecU3eev/y+eDC/cWfKkWeXin8CCPI/qw==
+=/bHb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/raqbit
+
+==================================================================
