@@ -1,0 +1,25 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Disabling caching headers for now
+
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     Cache-Control = "max-age=31536001"
+
+# [[headers]]
+#   for = "/"
+#   [headers.values]
+#     Cache-Control = "no-cache"
+
+# [[headers]]
+#   for = "/*.html"
+#   [headers.values]
+#     Cache-Control = "no-cache"
+
+# [[headers]]
+#   for = "/index.xml"
+#   [headers.values]
+#     Cache-Control = "no-cache"

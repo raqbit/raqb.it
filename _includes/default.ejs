@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Raqb.it</title>
+    <% include meta.ejs %>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/syntax.css"/>
+</head>
+<body>
+<header>
+    <div class="title">
+        <%- data.logo %>
+        <h1>Raqb.it</h1>
+    </div>
+</header>
+<main>
+    <section>
+        <h1><%- title %></h1>
+        <%- content %>
+    </section>
+    <section>
+        <h1>Where you can find me</h1>
+        <p>Foo bar baz</p>
+    </section>
+</main>
+<footer>
+    <span>Copyright © Raqbit -
+        <%- data.now.getFullYear() %>
+    </span>
+</footer>
+</body>
+</html>

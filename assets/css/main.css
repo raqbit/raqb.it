@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+  /* Light-theme colors */
+  --background-color: #fafafa;
+  --header-color: #46834b;
+  --on-header-color: #ffffff;
+  --logo-color: #ffffff;
+  --surface-color: #ffffff;
+  --font-color: #000000;
+  --footer-color: #555555;
+
+  /* Sizes */
+  --header-height: 50vh;
+  --logo-size: 150px;
+  --card-padding: 16px;
+  --main-width: 50vw;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark-theme colors */
+    --background-color: #121212;
+    --header-color: #1f1f1f;
+    --on-header-color: #e2e2e2;
+    --logo-color: #66bb6a;
+    --surface-color: #1f1f1f;
+    --font-color: #e2e2e2;
+    --footer-color: #bbbbbb;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --main-width: 70vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  :root {
+    --main-width: 80vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  :root {
+    --main-width: 100vw;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--background-color);
+}
+
+body {
+  color: var(--font-color);
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  margin: 0;
+}
+
+header {
+  height: var(--header-height);
+
+  display: flex;
+
+  background-color: var(--header-color);
+  color: var(--on-header-color);
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+header .title {
+  text-align: center;
+  margin: auto;
+}
+
+header .title .cactusIcon {
+  height: var(--logo-size);
+  fill: var(--logo-color);
+  stroke: var(--logo-color);
+}
+
+main {
+  width: var(--main-width);
+  margin: 3em auto 4rem;
+}
+
+section {
+  padding: var(--card-padding);
+
+  border-radius: 4px;
+
+  background-color: var(--surface-color);
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Blank space between sections */
+main section:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+footer {
+  min-width: 100%;
+  padding-bottom: 5px;
+
+  text-align: center;
+}
+
+footer span {
+  color: var(--footer-color);
+}

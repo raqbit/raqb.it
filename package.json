@@ -1,6 +1,17 @@
 {
-  "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-config-google": "^0.9.1"
+  "name": "raqb.it",
+  "version": "1.0.0",
+  "repository": "https://github.com/raqbit/raqb.it",
+  "author": "Raqbit <raqbit@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "latest",
+    "prismjs": "latest"
   }
 }
