@@ -79,6 +79,11 @@ main {
     margin-bottom: 0;
 }
 
+#project-text {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .mdl-list {
     margin-top: 0;
 }
@@ -87,6 +92,11 @@ li.mdl-list__item  a {
     text-decoration: none;
     font-weight:normal;
     color: rgba(0,0,0,.87);
+    width: 100%;
+}
+
+.mdl-list__item-text-body {
+    overflow: hidden;
 }
 
 #mdl-override .proj-list-icon{
