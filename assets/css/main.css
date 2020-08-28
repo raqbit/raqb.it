@@ -15,6 +15,10 @@
   --logo-size: 150px;
   --card-padding: 16px;
   --main-width: 50vw;
+
+  /* Theme animation */
+  --duration: 0.5s;
+  --timing: ease;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,7 +52,9 @@
   }
 }
 
-* {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -59,13 +65,10 @@ body {
   padding: 0;
 }
 
-html {
-  background-color: var(--background-color);
-}
-
 body {
-  color: var(--font-color);
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--font-color);
 }
 
 h1,
